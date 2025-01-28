@@ -103,10 +103,6 @@ h1{
     letter-spacing: 7.2px;
 }
 
-h2{
-    font-size: 18px;
-}
-
 /*Section Transport*/
 
 .titre-section{
@@ -123,4 +119,91 @@ h2{
     margin-top: 80px;
     margin-bottom: 60px;
     padding: 15px;
+}
+
+.titre-section h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+article{
+    text-align: center;
+
+}
+
+h3{
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+/*Footer*/
+
+footer h4{
+font-weight: 400;
+color: white;
+align-items: center;
+}
+
+footer{
+    background-color: black;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+}
+
+
+
+.facedebouk a{
+    background-image: url("../images/facebook-nb.jpg");
+}
+
+.X a{
+    background-image: url("../images/twitter-nb.jpg");
+}
+
+.zeldaedin a{
+    background-image: url("../images/linkedin-nb.jpg");
+}
+
+.pintherest a{
+    background-image: url("../images/pinterest-nb.jpg");
+}
+
+.facedebouk a:hover{
+    background-image: url("../images/facebook-survol.jpg");
+}
+
+.X a:hover{
+    background-image: url("../images/twitter-survol.jpg");
+}
+
+.zeldaedin a:hover{
+    background-image: url("../images/linkedin-survol.jpg");
+}
+
+.pintherest a:hover{
+    background-image: url("../images/pinterest-survol.jpg");
 }
