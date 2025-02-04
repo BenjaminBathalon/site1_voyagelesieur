@@ -132,6 +132,7 @@ h1{
     gap: 60px;
 }
 
+
 article{
     text-align: center;
 
@@ -206,4 +207,9 @@ footer ul{
 
 .pintherest a:hover{
     background-image: url("../images/pinterest-survol.jpg");
+}
+
+
+.conteneur-transport-invisible {
+    display: none;
 }
